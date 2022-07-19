@@ -7,6 +7,7 @@ This repo was made with 3 intentions:
 ### How to use repo
 - Clone down repo and install dependencies (yarn or npm).
     - Make sure you have TypeScript and the compiler for TypeScript installed globally.
+    - `yarn dev` or `npm dev` will start the server
 - Add your mongoDB URI in the config file (config/default.ts)
 - Generate JWT (JSON Web Token) RSA public and private keys and add to the config file
     - You can generate these from your terminal with the following commands:
