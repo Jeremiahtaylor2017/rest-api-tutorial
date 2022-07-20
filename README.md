@@ -4,6 +4,9 @@ This repo was made with 3 intentions:
 - Explore Express and Mongoose
 - Dive deeper into backend architecture and how to write more robust APIs.
 
+## Summary
+This repo takes you through the process of creating a user, etablishing a session for the user, allow you to see all the sessions generated, and delete sessions (logout). There is also a model that allows you to create a product, get the products that were made, update products, and delete products. Only the user that created the product will be able to edit the products.
+
 ### How to use repo
 - Clone down repo and install dependencies (yarn or npm).
     - Make sure you have TypeScript and the compiler for TypeScript installed globally. `npm i -g typescript`
